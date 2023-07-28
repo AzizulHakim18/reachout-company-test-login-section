@@ -4,7 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
     return (
-        <div className='text-center h-full w-2/4 bg-white py-10 border rounded-lg'>
+        <div className='text-center h-full sm:w-11/12 lg:w-2/4 bg-white my-2 px-4 py-10 border rounded-lg'>
             <div className='flex justify-center'>
                 <img src={logo} alt="company-logo" />
             </div>
@@ -37,12 +37,10 @@ const Login = () => {
                     <button className='btn btn-ghost w-full mx-auto px-10 text-white hover:text-black bg-green-400 border rounded-3xl flex justify-center items-center gap-2 mt-4'>Login</button>
                 </div>
             </form>
-            <div className='my-4'>
+            <div className='mt-6'>
                 <p>Not registered? <button className='text-blue-700'>Create an account</button></p>
             </div>
-            <div className='h-20 bg-slate-300 flex justify-center items-end'>
-                <p>©2023 r3achout.ai all rights reserved</p>
-            </div>
+
         </div >
     );
 };
